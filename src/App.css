@@ -81,3 +81,11 @@ input:focus, button:focus{
 	transform: scale(0.9);
 	transition-duration: 100ms;
 }
+.Disabled{
+	background-color: rgba(255, 255, 255, 0.2) !important;
+	color: rgba(255, 255, 255, 0.7) !important;
+	cursor: not-allowed !important;
+}
+.Disabled:active {
+	transform: none !important;
+}
